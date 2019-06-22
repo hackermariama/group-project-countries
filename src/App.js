@@ -4,10 +4,11 @@ import Languages from "./components/Languages";
 import Population from "./components/Population";
 import members from "./data/members";
 import "./App.css";
+import people from "./data/members";
 
 class App extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       members: members
     };
